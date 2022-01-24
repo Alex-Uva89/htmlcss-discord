@@ -10,20 +10,24 @@ html{
 
 header {
     width: 100%;
-    height: 100vh;
+    /*height: 800px;*/
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .container {
-    max-width: 85%;
+    max-width: 80%;
     min-width: 20%;
-    height: 100vh;
     margin: 0 auto;
     position: relative;  
 }
 
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
 
 .logo{
     width: 100px;
@@ -36,7 +40,7 @@ nav ul{
     list-style: none;
     float: left;
     line-height: 100px;
-    margin: 0 20%;
+    margin: 0 24%;
 }
 
 li{
@@ -68,8 +72,9 @@ a:hover{
     text-align: center;
     line-height: 2em;
     border: 1px solid rgba(255,255,255,1);
-    float: left;
+    float: right;
     margin-top: 20px;
+    
     
 }
 
@@ -83,6 +88,7 @@ a:hover{
 
 h1{
     margin-bottom: 1em;
+    font-size: 2em;
 }
 
 p{
@@ -99,9 +105,6 @@ p{
     background-color: rgba(0,0,0,0.5);
 }
 
-.box1{
-    margin-top: -10em;
-}
 
 
 .box1_img{
@@ -124,10 +127,191 @@ p{
 .box_testo_sinistra{
     width: 20%;
     float:right;
-    margin-top: 200px;
-    margin
+    margin-top: 350px;
+    margin-left: 3em;
 }
 
-h1{
-    font-size: 2em;
+.box3_testo_destra{
+    width: 20%;
+    float:left;
+    margin-top: 350px;
+    margin-left: 3em;
+    margin-bottom: 300px;
 }
+
+.box3_img{
+    float:left;
+    margin: 200px 0;
+    
+}
+
+.box4{
+    float: left;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+
+
+.start{
+    text-align: center;
+    width: 500px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+.download2{
+    background-color: royalblue;    
+}
+
+.title_last{
+    font-size: 2.5em;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(0,0,0,0.85);
+    position: relative;
+}
+
+.foot{
+    width: 200px;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+.header_foot{
+    float: left;
+}
+
+.title_footer{
+    color: royalblue;
+}
+
+.bandiera{
+    width: 1.5em;
+}
+
+select{
+    border: 0px solid rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0);
+    color: rgba(225,225,225,1);
+    font-size: 1em;
+}
+
+option{
+    color: black;
+}
+
+.icons{
+    color: rgba(225,225,225,1);
+    margin-top: 20px;
+}
+
+svg{
+    margin: 0 5px;
+}
+
+.list{
+    color: rgba(225,225,225,1);
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+.head_list1{
+    color: royalblue;
+}
+
+
+ul span{
+    position: absolute;
+    top: 0;
+}
+
+.head_list{
+    color: royalblue;
+}
+
+.uno{
+    position: absolute;
+    top: 2em;
+    left: 210px;
+}
+
+.colonna1{
+    position: absolute;
+    top: 3em;
+    left: 200px;
+}
+
+.colonna1 li{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.due{
+    position: absolute;
+    top: 2em;
+    left: 310px;
+}
+
+.colonna2{
+    position: absolute;
+    top: 3em;
+    left: 300px;
+}
+
+.colonna2 li{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.tre{
+    position: absolute;
+    top: 2em;
+    left: 410px;
+}
+
+.colonna3{
+    position: absolute;
+    top: 3em;
+    left: 400px;
+}
+
+.colonna3 li{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.quattro{
+    position: absolute;
+    top: 2em;
+    left: 510px;
+}
+
+.colonna4{
+    position: absolute;
+    top: 3em;
+    left: 500px;
+}
+
+.colonna4 li{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.list_item:hover{
+    color: skyblue;
+}
+
+
+
