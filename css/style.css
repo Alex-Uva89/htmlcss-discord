@@ -16,12 +16,12 @@ header {
     background-repeat: no-repeat;
 }
 
-.container_header {
+.container {
     max-width: 85%;
     min-width: 20%;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
-    margin: 0 auto;  
+    margin: 0 auto;
+    position: relative;  
 }
 
 
@@ -54,20 +54,23 @@ a:hover{
     color: rgba(0,0,0,0.5);
 }
 
-.login{
-    color: rgba(0,0,0,1);
-    background-color: rgba(255,255,255,1);
-    padding:1em 1.5em;
-    text-align: center;
-    line-height: 2em;
-    border: 1px solid rgba(255,255,255,1);
+.button{
+    padding: 1em 1.5em;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+.login{
+    color: rgba(0,0,0,1);
+    background-color: rgba(255,255,255,1);
+    text-align: center;
+    line-height: 2em;
+    border: 1px solid rgba(255,255,255,1);
     float: left;
     margin-top: 20px;
-
+    
 }
 
 .title{
@@ -75,7 +78,56 @@ a:hover{
     float: left;
     text-align: center;
     margin: 10% 30%;
-    position: relative;
     color: rgba(255,255,255,1);
 }
 
+h1{
+    margin-bottom: 1em;
+}
+
+p{
+    margin-bottom: 2em;
+}
+
+
+.download{
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+}
+
+.open{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.box1{
+    margin-top: -10em;
+}
+
+box2
+
+.box1_img{
+    float:left;
+}
+
+
+.box_testo_destra{
+    width: 20%;
+    float:left;
+    margin: 3em 3em;
+}
+
+.box2_img{
+    float:right;
+    margin-top: ;
+}
+
+
+.box_testo_sinistra{
+    width: 20%;
+    float:right;
+    margin: 3em 3em;
+}
+
+h1{
+    font-size: 2em;
+}
