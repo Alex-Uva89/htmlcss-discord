@@ -185,6 +185,7 @@ footer{
     height: 400px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 100px;
     padding-top: 50px;
 }
 
@@ -313,5 +314,23 @@ ul span{
     color: skyblue;
 }
 
+.last_section{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left:5%;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.login2{
+    background-color: royalblue;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
 
 
