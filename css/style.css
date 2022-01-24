@@ -103,7 +103,6 @@ p{
     margin-top: -10em;
 }
 
-box2
 
 .box1_img{
     float:left;
@@ -118,14 +117,15 @@ box2
 
 .box2_img{
     float:right;
-    margin-top: ;
+    margin-top: 200px;
 }
 
 
 .box_testo_sinistra{
     width: 20%;
     float:right;
-    margin: 3em 3em;
+    margin-top: 200px;
+    margin
 }
 
 h1{
